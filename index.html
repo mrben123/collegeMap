@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+    <script src="js/pixi.js"></script>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="./css/main/main.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.css">
+</head>
+<body class="body">
+
+<!--    <div class="section_1">-->
+<!--        <h1><img src="/images/qdu.webp" class="img-thumbnail logo">青岛大学浮山校区</h1>-->
+<!--    </div>-->
+<!--    <hr class="border border-danger border-2 opacity-50">-->
+    <div class="section_2">
+        <div id="canvas" class="main_canvas"></div>
+        <div class="sub_canvas">
+            <canvas id="sub_canvas">
+                请换个支持canvas的浏览器，比如chrome
+            </canvas>
+            <div class="school_area_info ">
+                <div class="alert alert-primary" role="alert">
+                    楼宇名称
+                </div>
+                <table class="table table-info table-striped">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">名称</th>
+                        <th scope="col">区域</th>
+                        <th scope="col">主要用途</th>
+                        <th scope="col">面积</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">-</th>
+                        <td id="name"></td>
+                        <td id="region"></td>
+                        <td id="main_fun" ></td>
+                        <td id="area"></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="alert alert-primary" role="alert">
+                    楼宇详情
+                </div>
+                <table class="table table-info table-striped">
+                    <thead >
+                        <tr id="tbody1">
+<!--                            <th scope="col">楼层</th>-->
+<!--                            <th scope="col">学院1</th>-->
+<!--                            <th scope="col">学院2</th>-->
+<!--                            <th scope="col">学院3</th>-->
+<!--                            <th scope="col">学院4</th>-->
+<!--                            <th scope="col">学院5</th>-->
+<!--                            <th scope="col">学院6</th>-->
+                        </tr>
+
+                    </thead>
+                    <tbody id="tbody2">
+
+                    </tbody>
+                </table>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">名称</span>
+                    <input id="input" type="text" placeholder="输入楼名查询,比如'德音楼'" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                <button id="query" type="button" class="btn btn-secondary" >查询</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="js/q.js"></script>
+<script src="index.js"></script>
+<script>
+
+    const position = {
+        x:0,
+        y:0
+    }
+    const current_info = {
+        name: 'null',
+        region: 'null',
+        main_fun: 'null',
+        area: 'null'
+    }
+    _init()
+
+</script>
+
+</html>

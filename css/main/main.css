@@ -1,0 +1,60 @@
+body{
+    /*background: #0a53be;*/
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background: #ededed;
+}
+.section_1{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    background: #ffffff;
+    padding:0 30px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+}
+.section_1 h1{
+    text-align: center;
+    margin-top: 60px;
+}
+.section_2{
+    display: flex;
+    padding:30px 30px 0;
+}
+.main_canvas{
+
+}
+.sub_canvas{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.school_area_info{
+    margin-top: 20px;
+
+}
+#sub_canvas{
+    width: 300px;
+    height: 230px;
+    border: solid 4px #ffffff;
+    border-radius: 20px;
+}
+.sub_canvas{
+    /*min-width: 400px;*/
+}
+
+td{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #ccc;
+}
+.test{
+    text-overflow:ellipsis;
+}
